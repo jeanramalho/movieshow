@@ -1,14 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Home } from './src/screens/Home';
+import { StatusBar } from "expo-status-bar";
+import { MovieProvider } from "./src/context/MoviesContext";
+import { Routes } from "./src/routes";
 
 export default function App() {
   return (
     <>
-      <Home />
-      <StatusBar style="auto" />
+      <MovieProvider>
+        <Routes />
+        <StatusBar style="light" translucent backgroundColor="#242A32" />
+      </MovieProvider>
     </>
   );
 }
-
