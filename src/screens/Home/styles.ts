@@ -4,7 +4,7 @@ import {  StyleSheet  } from 'react-native'
  export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#1e1e1e',
+      backgroundColor: '#24A32',
       padding: 25,
     },
 
@@ -14,5 +14,14 @@ import {  StyleSheet  } from 'react-native'
       lineHeight: 45,
       color: "#FFF",
     },
+
+    containerInput: {
+        backgroundColor: "#67686D",
+        height: 42,
+        padding: 10,
+        borderRadius: 16,
+        marginTop: 24,
+        marginBottom: 20,
+    }
   });
   
