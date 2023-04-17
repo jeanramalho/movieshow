@@ -1,13 +1,16 @@
-import { View, Text } from "react-native/types";
-
+import { View, Text, TextInput } from "react-native";
+import { styles } from './styles'
 
 
 
 export function Home () {
 
     return (
-        <View>
-            <Text>O melhor entretenimento para você!</Text>
+        <View style={styles.container}>
+            <Text style={styles.headerText}>O melhor entretenimento para você!</Text>
+            <View style={styles.containerInput}>
+                <TextInput placeholder="Buscar" />
+            </View>
         </View>
     )
 }
