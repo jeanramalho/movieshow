@@ -1,19 +1,10 @@
 import { StyleSheet } from "react-native/types";
 
+
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: "#1E1E1E",
-    },
-    moviesEmpty: {
-      height: "70%",
-      justifyContent: "center",
-      alignItems: "center",
-      flexDirection: "column",
-    },
-    moviesEmptyImage: {
-      width: 76,
-      height: 76,
     },
     header: {
       paddingTop: 30,
@@ -27,11 +18,27 @@ export const styles = StyleSheet.create({
       fontWeight: "700",
       fontSize: 18,
     },
+    containerInput: {
+      width: "100%",
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      backgroundColor: "#3A3F47",
+      height: 42,
+      padding: 10,
+      borderRadius: 16,
+    },
+    input: {
+      color: "#fff",
+      width: "80%",
+    },
+  
+    content: {
+      padding: 20,
+    },
     contentMyList: {
       width: "100%",
       padding: 20,
-      gap: 25,
-      marginBottom: 25,
     },
     card: {
       width: 250,
@@ -70,18 +77,5 @@ export const styles = StyleSheet.create({
     cardInfoInfoMovieContentText2: {
       color: "#FF8700",
       fontWeight: "700",
-    },
-    moviesEmptyTitle: {
-      color: "#EBEBEF",
-      fontWeight: "600",
-      fontSize: 16,
-      marginTop: 10,
-      letterSpacing: 0.12,
-      lineHeight: 35,
-    },
-    moviesEmptyText: {
-      color: "#92929D",
-      letterSpacing: 0.12,
-      lineHeight: 35,
     },
   });

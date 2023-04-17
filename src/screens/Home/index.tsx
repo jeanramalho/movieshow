@@ -1,6 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import { MagnifyingGlass } from "phosphor-react-native";
 import { useEffect, useState } from "react";
+import { styles } from "./styles"
 import {
   ActivityIndicator,
   FlatList,
@@ -11,7 +12,7 @@ import {
 
 import { Card } from "../../components/Card";
 
-import api from "../../services/api";
+import { api } from "../../services/api";
 
 interface Movie {
   id: number;

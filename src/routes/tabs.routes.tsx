@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { BookmarkSimple, House, MagnifyingGlass } from "phosphor-react-native";
 import { Details } from "../screens/Details";
 import { Home } from "../screens/Home";
-import { MyList } from "../screens/MyList";
+import { MyList } from "../screens/Mylist";
 import { Search } from "../screens/Search";
 
 const { Navigator, Screen } = createBottomTabNavigator();

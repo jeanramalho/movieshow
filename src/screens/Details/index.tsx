@@ -20,7 +20,7 @@ import {
 
 import { MovieContext } from "../../context/MoviesContext";
 
-import api from "../../services/api";
+import { api } from "../../services/api";
 
 type MovieDetails = {
   id: number;
