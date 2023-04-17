@@ -7,7 +7,7 @@ export function Home () {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.headerText}>O melhor entretenimento para você!</Text>
+            <Text style={styles.headerText}>O melhor do entretenimento!</Text>
             <View style={styles.containerInput}>
                 <TextInput placeholder="Buscar" />
             </View>
