@@ -8,7 +8,7 @@ import {
   useState,
 } from "react";
 
-import api from "../services/api";
+import { api } from "../services/api";
 
 type Movie = {
   id: number;
