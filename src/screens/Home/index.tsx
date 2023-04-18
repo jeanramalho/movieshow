@@ -83,7 +83,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.headerText}>O que você quer assistir?</Text>
+      <Text style={styles.headerText}>O Melhor do entretenimento na palma da sua mão!</Text>
       <View style={styles.containerInput}>
         <TextInput
           style={styles.input}
